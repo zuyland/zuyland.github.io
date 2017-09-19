@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+	background-color: #f2f2f2;
+	font-family:"lato";
+	font-size:16px;
+	min-width: 400px;
+	color:#555;
+	-webkit-font-smoothing:antialiased;
+	-webkit-overflow-scrolling:touch;
+	margin-top: 70px;}
+
+	h1, h2 ,h3, h4, h5, h6{
+		font-family: "Raleway";
+		font-weight: 300;
+		color: #333;
+
+	}
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+
+}
+.centered{
+	text-align: center;
+}
+
+a{
+	color: #f85c37;
+
+}
+
+a:hover, a:focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+
+
+}
+
+hr{
+	display: block;
+	height: 1px;
+  border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #ff7878;
+
+}
+
+.navbar-inverse .navbar-brand{
+	color:#999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap{
+
+	position: relative;
+display:table;
+width: 100%;
+text-align: center;
+color: #fff;
+height: 100vh;
+background: #000 url(https://i.mycdn.me/image?id=859964576587&t=3&plc=WEB&tkn=*E8_qkCrOE6c48Sozv_0CXkgxEPs) center center no-repeat;
+
+
+
+
+}
+#headerwrap4{
+	position: relative;
+display:table;
+width: 100%;
+text-align: center;
+color: #fff;
+height: 100vh;
+background: #000 url(../img/aboutme.jpg) center center no-repeat;
+}
+#headerwrap4 h1{
+	margin-top: 250px;
+	font-size: 70px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+color: white;
+}
+#headerwrap4 h2{
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 300px;
+	letter-spacing: 2px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#headerwrap3{
+	background: #BDBDBD center top   ;
+	margin-top: -20px;
+	padding-top: 50px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+min-width: 100%;
+}
+
+#headerwrap3 h1{
+	margin-top: 100px;
+	font-size: 50px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+  color: white;
+	text-align: left;
+}
+
+#headerwrap3 p{
+	margin-top: 100px;
+	font-size: 20px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+  color: white;
+	text-align: left;
+}
+
+#headerwrap6{
+	position: relative;
+display:table;
+width: 100%;
+text-align: center;
+color: #fff;
+height: 100vh;
+background: #000 url(../img/products.jpg) center center no-repeat;
+}
+
+#headerwrap6 h1{
+	margin-top: 300px;
+	font-size: 70px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+color: white;
+}
+
+#headerwrap6 h4{
+	margin-top: 200px;
+	font-size: 40px;
+	font-weight: 300px;
+	letter-spacing: 2px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#headerwrap2{
+	position: relative;
+display:table;
+width: 100%;
+text-align: center;
+color: #fff;
+height: 100vh;
+background: #000 url(../img/works.jpg) center center no-repeat;
+}
+#headerwrap2 h1{
+	margin-top: 350px;
+	font-size: 70px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+color: white;
+}
+
+#headerwrap2 h2{
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 300px;
+	letter-spacing: 2px;
+  color: white;
+	text-transform: uppercase;
+}
+
+#headerwrap h1{
+	margin-top: 200px;
+	font-size: 70px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+color: white;
+
+}
+
+#headerwrap h2{
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 300px;
+	letter-spacing: 2px;
+  color: white;
+	text-transform: uppercase;
+}
+
+
+.w{
+	padding-top: 35px;
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	min-height: 300px;
+	min-width: 100%;
+}
+
+.w h4{
+	font-size: : 40px;
+}
+#dg{
+
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	min-height: 500px;
+
+
+
+}
+#dg h4{
+	font-size: 40px;
+}
+.tilt{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-tranzition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#headerwrap5{
+	background: #78E6E1;
+	margin-top: -20px;
+	padding-top: 50px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+min-width: 100%;
+}
+#headerwrap5 h1{
+	margin-top: 100px;
+	font-size: 70px;
+	font-weight: 300px;
+	letter-spacing: 3px;
+color: white;
+}
+#headerwrap5 h2{
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 300px;
+	letter-spacing: 2px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.x{
+	padding-top: 35px;
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	min-height: 300px;
+	min-width: 100%;
+}
+.x h4{
+	font-size: : 40px;
+}
+
+.footer {
+	background-color: #646464;
+	color: #fff;
+	text-align: center;
+	padding: 3rem 0;
+}
+.footer strong {
+	font-weight: 300;
+	font-size: 2.4rem;
+}
+.wb{
+	background: #e0e0e0;
+	min-width: 100%;
+	margin-top: 35px;
+	margin-bottom:
+
+}
+
+.wb h4{
+	font-size: 35px;
+}
